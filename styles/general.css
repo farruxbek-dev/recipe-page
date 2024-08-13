@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Outfit;
+  src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: YoungSerif;
+  src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+  background-color: rgb(243,229,216);
+  display: grid;
+  justify-content: center;
+  padding: 50px 0;
+}
+p {
+  margin: 0;
+}

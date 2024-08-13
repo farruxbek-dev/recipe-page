@@ -1,0 +1,131 @@
+.container {
+  width: 548px;
+  height: auto;
+  background-color: white;
+  justify-content: center;
+  padding: 30px 30px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+#image {
+  height: 250px;
+  border-radius: 18px;
+  display: block;
+  margin-bottom: 20px;
+}
+#title {
+  font-size: 34px;
+  font-family: YoungSerif;
+  margin-bottom: 10px;
+}
+#description {
+  font-family: Outfit;
+  font-size: 14px;
+}
+.timediv {
+  background-color: rgb(255,247,252);
+  padding: 6px;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+.ptime {
+  margin-left: -20px;
+  line-height: 28px;
+}
+#pt {
+  margin-left: 18px;
+  color: rgb(96,44,70);
+  font-family: Outfit;
+  font-size: 15px;
+}
+.pttxt {
+  font-size: 18px;
+  margin-bottom: 6px;
+  font-family: Outfit;
+  font-weight: 600;
+  color: rgb(96,44,70);
+}
+#ptt {
+  font-weight: 600;
+}
+.ing {
+  font-size: 28px;
+  font-family: YoungSerif;
+  color: rgb(134,71,49);
+}
+#hr {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+#li {
+  margin-left: -6px;
+  color: rgb(134,71,49);
+  font-family: Outfit;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+#pt2 {
+  margin-left: 18px;
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(85,80,76);
+}
+.m {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+td {
+  background-color: white;
+}
+
+#s {
+  color: rgb(85,80,76);
+  width: 60px;
+  border: none;
+}
+.table div {
+  display: flex;
+  justify-content: start;
+  border-bottom: 1px solid #e0e0e0;
+}
+.table span {
+  padding: 10px 176px 10px 40px;
+  font-family: Outfit;
+}
+#s {
+  padding: 10px 176px 10px 40px;
+  font-family: Outfit;
+}
+.table-r {
+  font-weight: 600;
+  color: rgb(134,71,49);
+  display: flex;
+}
+#ld {
+  border: none;
+}
+
+.attribution { 
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 608px) {
+  body {
+    background-color: white;
+  }
+  .container {
+    width: 375px;
+    padding: 30px 20px;
+  }
+  #image {
+    width: 375px;
+    height: auto;
+  }
+  #s {
+    width: 20px;
+    padding-left: 30px;
+  }
+}
